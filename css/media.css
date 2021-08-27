@@ -1,0 +1,160 @@
+/* *************** */
+@media (max-width:1020px) {
+    .container,
+    .small-container{
+        max-width: 767px;
+    }
+    
+    .main{
+        margin-bottom: 50px;
+    }
+    
+    .gen-title{
+        padding: 15px 0 !important;
+        font-size: 22px;
+    }
+    
+    .getaway .small-container .comment {
+        padding-top: 25px !important;
+    }
+    
+    .getaway .share-link{
+        margin: 40px 0;
+    }
+    
+    .articles .article-card {
+        margin: 60px 0;
+    }
+    
+    .article-card-img {
+        margin-bottom: 15px;
+    }
+    
+    p{
+        font-size: 13px;
+    }
+    
+    .sign{
+        padding: 50px 0;
+    }
+    
+    .sign-up .email{
+        margin-top: 30px;
+    }
+    
+    .comments .comment-box-info textarea{
+        width: 100%;
+    }
+    
+    .like,
+    .comments{
+        padding: 50px 0 40px;
+    }
+    
+    .like .row .small-container,
+    .getaway .row .container{
+        justify-content: center;
+    }
+    
+   
+    
+    .load-more .load-btn {
+        margin-top: 80px;
+    }
+    
+    
+}
+
+/* ******************* */
+@media (max-width:800px) {
+    .container,
+    .small-container{
+        max-width: 576px;
+    }
+    
+    .header {
+        margin: 35px 0;
+    }
+    
+    .header .container .navbar-brand img {
+        padding-bottom: 0px !important;
+    }
+    
+    .load-more .load-btn button{
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+    
+    .images-quote{
+        padding: 0 20px 15px;
+    }
+    
+    .articles .article-card{
+        margin: 40px 0;
+    }
+    
+    .article-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+    }
+    
+    .getaway{
+        padding-bottom: 20px;
+    }
+    
+    .getaway .row .container .right{
+        margin-left: 0;
+    }
+    
+    .getaway .row .container .right .posts{
+        margin: 40px 0 50px;
+    }
+    
+    .getaway .row .container .right .posts li .post-com{
+        padding-top: 5px;
+    }
+    
+    .load-more .load-btn {
+        margin-top: 20px;
+    }
+    
+    
+}
+
+/* *********** */
+@media (max-width:576px) {
+    .images .share{
+        width: 250px;
+    }
+    
+    .getaway .share-link{
+        margin: 40px 0 60px;
+    }
+    
+    .getaway .row .container .right .posts ul li {
+        margin-bottom: 17px;
+    }
+    
+    .articles .article-card,
+    .article-card{
+        margin: 25px 0;
+    }
+    
+    .load-more {
+        padding: 60px 0;
+    }
+    
+    .footer{
+        padding: 30px 0;
+    }
+    
+    .footer .container .terms, .footer .container .follow{
+        flex-direction: column;
+    }
+    
+    .footer .container .follow-icons a:first-child i{
+        padding-left: 0;
+    }
+}
